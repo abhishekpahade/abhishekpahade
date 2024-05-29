@@ -10,7 +10,7 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --main-color: #f54744;
+  --main-color: #11da2f;
   --text-color: #2f2f2f;
   --bg-color: #fff;
  
@@ -99,7 +99,7 @@ header {
   color: #fff;
 }
 .btn:hover {
-  background: #fc5552;
+  background: #6fc408;
 }
 .heading {
   text-align: center;
@@ -134,16 +134,16 @@ header {
   margin: 1.7rem 0 1rem;
 }
 .chefs .chefs-container {
-  display: flex;
-  flex-wrap: wrap;
+ display:flex;
+ flex-wrap: wrap-reverse;
   gap: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 1.5rem; 
 }
 .chefs .chefs-container .chef-box {
-  position: relative;
+   position: relative;
   height: 420px;
-  flex: 1 1 18rem;
-  overflow: hidden;
+   flex: 1 1 18rem;
+   overflow: hidden;  
 }
 .chefs .chefs-container .chef-box img {
   width: 100%;
